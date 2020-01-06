@@ -24,6 +24,7 @@ class _HomePageState extends State<HomePage> {
         ),
         body: Center(
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               FloatingActionButton(
                 tooltip: 'Add',
